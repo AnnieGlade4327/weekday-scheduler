@@ -1,4 +1,10 @@
-var now = moment();
+var SpecialToDate = '01/03/2021';
+var SpecialTo = moment(SpecialToDate, "01/03/2021");
+if (moment() > SpecialTo) {
+  alert("date is Today or in Future")
+} else {
+    alert('date is in the past');
+}
 $("#currentDay").text(moment().format("28th February 2021, 09:17:35 a"));
 
 setInterval(function () {
@@ -14,33 +20,30 @@ const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
 // for loop to iterate through the timeList and timeId array and appends the data 
 for (let i = 0; i < timeList.length; i++) {
-    let createRow = $("<div class='row time-block'>").attr("id", timeId[i]);
+    // let createRow = $("<div class='row time-block'>").attr("id", timeId[i]);
     let createTime = $("<div class='hour col-1'>")
 
-    let createTextarea = $("<textarea class='col-10'>");
+    let createTextarea = $("<textarea class=''>");
     createTextarea.attr("id", timeList[i]);
 
     let createButton = $("<button type='button' class='saveBtn col-1 far fa-save'>");
 
-    // append the created row to the container
-    createContainer.append(createRow);
-    //create the timeList and append rows 1-8 starting from (9am and ending at 5pm)
     createTime.text(timeList[i]);
-    createRow.append(createTime);
+    // createRow.append(createTime);
 
     // this create the textarea where user input content
     // createTextarea.text();
-    createRow.append(createTextarea);
+    // createRow.append(createTextarea);
 
     // this create the buttons from 9am to 5pm
     createButton.text();
-    createRow.append(createButton);
+    createButton.append(createButton);
 }
 
-    // this calls the localStorage Function
-    localStorageFunction();
+    //call the localStorage Function
+    localStorage.getItem;
 
-// this will store the data from the textarea into localStorage
+//store the data from the textarea into localStorage
 function localStorageFunction() {
 
     for (let index = 0; index < numbers.length; index++) {
@@ -48,7 +51,7 @@ function localStorageFunction() {
     }
 }
 
-// this to save the stored data that has been entered into the textarea
+//save the stored data that has been entered into the textarea
 $("button").on("click", function (event) {
     event.preventDefault();
 
