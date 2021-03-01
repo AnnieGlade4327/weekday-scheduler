@@ -18,7 +18,7 @@ This application uses the jQuery library to manipulate the HTML elements base on
 
 The Work Day Scheduler calendar presents a 9AM to 5PM day. The current date is being displayed at the top of the planner. Each of the workday’s hours are colored based on the current time of day. Hours which are in the past are being colored grey, hours in the present is colored red and hours in the future are colored green.
 
-# GitHub: https://github.com/AnnieGlade4327/weekday-scheduler
+# GitHub : https://github.com/AnnieGlade4327/weekday-scheduler
 
 # Technologies used
 
