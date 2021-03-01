@@ -11,7 +11,7 @@
 A simple calendar application that allows the user to save an event for each hour in their day.
 
 # Introduction Demo
-
+![photo of application](weekday-scheduler.png)
 This application uses the jQuery library to manipulate the HTML elements base on the user's input click events. It also users LocalStorage to store the appointments on click and renders it on the window when the page loads.
 
 # Functionality

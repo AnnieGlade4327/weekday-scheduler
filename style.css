@@ -24,15 +24,15 @@ textarea {
 .description {
   white-space: pre-wrap;
 }
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 3px solid #8f8f8f;
-}
+.time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 3px solid #8f8f8f;
+  }
 .row-task-info {
   text-align: center;
   border-radius: 15px;
@@ -44,9 +44,9 @@ textarea {
 }
 .past {
   background-color: #8f8f8f;
-  color: #8f8f8f;
+  color:#8f8f8f
 }
-.blockHour.present {
+.blockHour {
   background-color: #ff6961;
 }
 .future {
