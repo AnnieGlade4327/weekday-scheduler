@@ -5,7 +5,7 @@
 - [Functionality](#Functionality)
 - [GitHub](#GitHub)
 - [Technologies-used](#Technologies-used)
-
+- [End](#End)
 # Description
 
 A simple calendar application that allows the user to save an event for each hour in their day.
@@ -28,3 +28,5 @@ https://github.com/AnnieGlade4327/weekday-scheduler
 3. HTML
 4. CSS
 5. JavaScript
+# End
+- [Back To Top](#Weekday-Scheduler)
