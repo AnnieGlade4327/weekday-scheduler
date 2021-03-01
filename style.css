@@ -24,12 +24,7 @@ textarea {
 .description {
   white-space: pre-wrap;
 }
-.time-block{
-    text-align: center;
-    border-radius: 15px;
-  }
-
-.row-task-info {
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
@@ -38,6 +33,10 @@ textarea {
   height: 80px;
   border-top: 3px solid #8f8f8f;
 }
+.row-task-info {
+  text-align: center;
+  border-radius: 15px;
+}
 .hour {
   background-color: #06aed5;
   color: #000000;
@@ -45,22 +44,19 @@ textarea {
 }
 .past {
   background-color: #8f8f8f;
-  color: white;
+  color: #8f8f8f;
 }
-.present {
+.blockHour.present {
   background-color: #ff6961;
-  color: white;
 }
 .future {
   background-color: #77dd77;
-  color: white;
 }
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: white;
 }
 .saveBtn i:hover {
   font-size: 20px;

@@ -17,12 +17,13 @@
     <header class="jumbotron">
         <h1 class="display-3">Work Day Scheduler</h1>
         <p class="lead">A simple calendar app for scheduling your work day</p>
-        <p id="currentDay" class="lead">28th February 2021, 7:31:20 pm</p>
+        <p id="currentHour" class="lead">28th February 2021, 7:31:20 pm</p>
     </header>
     <div class="container">
         <div id="9" class="row task-info">
             <div class="col-1 hour">9:00 AM</div>
             <div class="col task"></div>
+            <textarea class="col-9" id="9AM"></textarea>
             <button class="col-1 saveBtn d-flex justify-content-center align-items-center">
                 <span class="far fa-save"></span>
             </button>
@@ -84,8 +85,8 @@
             </button>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="script.js"></script>
 </body>
