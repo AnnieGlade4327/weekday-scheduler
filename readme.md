@@ -3,7 +3,7 @@
 - [Description](#Description)
 - [Introduction Demo](#Introduction-Demo)
 - [Functionality](#Functionality)
-- [GitHub](#GitHub-Link)
+- [GitHub](#GitHub)
 - [Technologies-used](#Technologies-used)
 
 # Description
